@@ -1811,7 +1811,7 @@ namespace Couchbase.Lite
             for(var i = ancestry.Count - 1; i >= 0; i--) {
                 var revID = ancestry[i];
                 if(revID.Generation >= revPos) {
-                    var attachments = GetAttachmentsFromDoc(docId, revID);
+                    var attachments = GetAttachmentsFromDocOrDefault(docId, revID);
                     if(attachments == null) {
                         continue;
                     }
