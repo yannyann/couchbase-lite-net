@@ -52,15 +52,15 @@ For full notes see https://developer.couchbase.com/documentation/mobile/1.4/refe
   </metadata>
   <files>
     <!-- .NET 3.5 -->
-    <file target="lib/net35/" src="staging/Couchbase.Lite.Storage.SQLCipher/net35/Couchbase.Lite.Storage.SQLCipher.dll*" />
+    <file target="lib\net35\" src="staging\Couchbase.Lite.Storage.SQLCipher\net35\Couchbase.Lite.Storage.SQLCipher.dll*" />
 
     <!-- .NET 4.5 -->
-    <file target="lib/net45/" src="staging/Couchbase.Lite.Storage.SQLCipher/net45/Couchbase.Lite.Storage.SQLCipher.dll*" />
+    <file target="lib\net45\" src="staging\Couchbase.Lite.Storage.SQLCipher\net45\Couchbase.Lite.Storage.SQLCipher.dll*" />
 
     <!-- Xamarin.Android -->
-    <file target="lib/MonoAndroid/" src="staging/Couchbase.Lite.Storage.SQLCipher/MonoAndroid/Couchbase.Lite.Storage.SQLCipher.dll*" />
+    <file target="lib\MonoAndroid\" src="staging\Couchbase.Lite.Storage.SQLCipher\MonoAndroid\Couchbase.Lite.Storage.SQLCipher.dll*" />
 
     <!-- Xamarin.iOS -->
-    <file target="lib/Xamarin.iOS10/" src="staging/Couchbase.Lite.Storage.SQLCipher/Xamarin.iOS10/Couchbase.Lite.Storage.SQLCipher.dll*" />
+    <file target="lib\Xamarin.iOS10\" src="staging\Couchbase.Lite.Storage.SQLCipher\Xamarin.iOS10\Couchbase.Lite.Storage.SQLCipher.dll*" />
   </files>
 </package>

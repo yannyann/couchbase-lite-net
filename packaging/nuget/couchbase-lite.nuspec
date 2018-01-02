@@ -42,9 +42,9 @@ For full notes see https://developer.couchbase.com/documentation/mobile/1.4/refe
     </dependencies>
   </metadata>
   <files>
-    <file target="lib/net45" src="staging/Couchbase.Lite/net45/*" />
-    <file target="lib/MonoAndroid" src="staging/Couchbase.Lite/MonoAndroid/*" />
-    <file target="lib/Xamarin.iOS10" src="staging/Couchbase.Lite/Xamarin.iOS10/*" />
-    <file target="lib/net35" src="staging/Couchbase.Lite/net35/*" />
+    <file target="lib\net45" src="staging\Couchbase.Lite\net45\*" />
+    <file target="lib\MonoAndroid" src="staging\Couchbase.Lite\MonoAndroid\*" />
+    <file target="lib\Xamarin.iOS10" src="staging\Couchbase.Lite\Xamarin.iOS10\*" />
+    <file target="lib\net35" src="staging\Couchbase.Lite\net35\*" />
   </files>
 </package>
